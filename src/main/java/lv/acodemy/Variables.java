@@ -62,5 +62,32 @@ public class Variables {
         ++	Increment	Increases the value of a variable by 1	++x
         --	Decrement	Decreases the value of a variable by 1  --x
          */
+
+        String name = "Jevgenija";
+        String lastName = "Kirejeva";
+
+        // распечатай отдельно
+
+        System.out.println(name);
+        System.out.println(lastName);
+
+        //конкатинация
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
+
+        // интроспекция ?
+        System.out.printf("Hello, %s! What is your surname? My surname is %s%n", name, lastName);
+
+        // var - переменная с не явным типом/ используется только внутри методов
+
+        var myCurrentAge = 30;
+        var text = "Hello!";
+
+        String myVar;
+        myVar = "hello";
+
+        /*var myVarSec;
+        myVarSec = "hello?" //так нельзя // и походу нельзя null*/
+
     }
 }
